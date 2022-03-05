@@ -258,7 +258,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="%"
-                android:background="#F0F0F0"
+                android:background="@drawable/vien"
                 android:textSize="30dp"
                 android:textColor="@color/black"
                 android:gravity="center">

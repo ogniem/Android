@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ImageButton
+        android:layout_marginTop="-50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:background="@drawable/imgfb"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editsdt"
+        android:hint="Số điện thoại hoặc email"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editmk"
+        android:hint="Mật khẩu"
+        android:layout_marginTop="20dp"/>
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:textSize="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btdn"
+            android:text="Đăng nhập"
+            android:background="#3F5793"
+            />
+
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quên mật khẩu?"
+        android:id="@+id/btqmk"
+        android:textSize="20dp"
+        android:background="@color/white"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Hoặc"
+    android:textColor="@color/black"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btdk"
+        android:text="Tạo tài khoản Facebook mới"
+        android:layout_marginTop="50dp"
+        android:textSize="15dp"
+        android:background="#3F5793"/>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
