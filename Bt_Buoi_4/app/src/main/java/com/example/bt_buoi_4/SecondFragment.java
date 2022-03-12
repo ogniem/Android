@@ -14,13 +14,13 @@ import androidx.fragment.app.Fragment;
 public class SecondFragment extends Fragment {
 
 
-    private EditText edttk, edtpass;
-
-    private View mView;
-
-    public SecondFragment() {
-        // Required empty public constructor
-    }
+ EditText edttk, edtpass;
+//
+//    private View mView;
+//
+//    public SecondFragment() {
+//        // Required empty public constructor
+//    }
 
 
     @Override
@@ -33,20 +33,23 @@ public class SecondFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        mView= inflater.inflate(R.layout.fragment_second, container, false);
+//        mView= inflater.inflate(R.layout.fragment_second, container, false);
 
-        edttk= mView.findViewById(R.id.edttk);
-        edtpass = mView.findViewById(R.id.edtpass);
+        View view = inflater.inflate(R.layout.fragment_second, container, false);
+//        edttk= mView.findViewById(R.id.edttk);
+//        edtpass = mView.findViewById(R.id.edtpass);
+        edttk = view.findViewById(R.id.edttk);
+        edtpass = view.findViewById(R.id.edtpass);
 
 
-        return mView;
+        return view;
     }
 
 
-    public void rDataFromF1Tk(String email){
-        edttk.setText(email);
-
-    }
+//    public void rDataFromF1Tk(String email){
+//        edttk.setText(email);
+//
+//    }
 
 
     public void rDataFromF1MK(String pass) {
